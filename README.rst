@@ -76,9 +76,6 @@ The first thing you'll need to do in your GKE cluster is run the following comma
 
 .. code-block:: bash
 
-    $ kubectl apply -f deploy  # apply all manifests from the folder
-
-.. code-block:: bash
     $ kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin [--user [USERNAME]]
 
 Now, it should be as simple as:
