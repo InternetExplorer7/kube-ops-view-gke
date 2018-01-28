@@ -72,7 +72,7 @@ Installation
 
 You can find example Kubernetes manifests for deployment in the ``deploy`` folder.
 
-The first thing you'll need to do in your GKE cluster is run the following command:
+The first thing you'll need to do in your GKE cluster is ensure that Legacy Authorization is disabled (this is an option disabled by default when you create a GKE cluster), then run the following command:
 
 .. code-block:: bash
 
