@@ -73,6 +73,7 @@ Installation
 You can find example Kubernetes manifests for deployment in the ``deploy`` folder.
 
 The first thing you'll need to do in your GKE cluster is run the following command:
+
 .. code-block:: bash
 
     $ kubectl apply -f deploy  # apply all manifests from the folder
